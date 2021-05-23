@@ -92,9 +92,9 @@ function Draw(note,x,y,pace)
 
     % sharp and flat notes
     if note2=='b'
-        text(x+length/2-1.5*delta,y+(center+0.5)*delta,'$\flat$','Interpreter','Latex','Fontsize',22);
+        text(x+length/2-1.5*delta,y+(center+0.5)*delta,'#','Interpreter','Latex','Fontsize',22);
     else if note2=='#'
-            text(x+length/2-1.5*delta,y+(center+0.5)*delta,'$\sharp$','Interpreter','Latex','Fontsize',22);
+            text(x+length/2-1.5*delta,y+(center+0.5)*delta,'b','Interpreter','Latex','Fontsize',22);
         end
     end
 end
